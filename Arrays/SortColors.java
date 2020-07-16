@@ -4,7 +4,7 @@ Sort Colors(Dutch National Flag alg)
         
       int low = 0,mid = 0, high;
       high = nums.length -1;
-      while(mid<=high){  // impt <=
+      while(mid<=high){  // impt point to remember
           if(nums[mid] == 0){
               swap(low,mid, nums);
               low++;
